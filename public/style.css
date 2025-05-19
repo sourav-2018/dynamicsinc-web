@@ -2110,7 +2110,7 @@ body {
 
 .sfs:hover {
   color: #ffffff;
-    transition: color 0.3s;
+  transition: color 0.3s;
   text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
 }
 
@@ -2189,6 +2189,7 @@ body {
 .dropdown ul li:hover {
   color: black;
 }
+
 /* vegburger end here */
 
 /* navbar end */
@@ -2205,7 +2206,8 @@ body {
 }
 
 .info_1 {
-  font-size: clamp(1.5rem, 5vw, 5rem); /* Responsive font size */
+  font-size: clamp(1.5rem, 5vw, 5rem);
+  /* Responsive font size */
   font-weight: bold;
   font-family: sans-serif;
   text-align: center;
@@ -2341,9 +2343,11 @@ footer {
   cursor: pointer;
   transition: color 0.3s;
 }
+
 .footer-column ul li:hover {
   color: #fff;
 }
+
 .footer-column ul li a {
   text-decoration: none;
   color: inherit;
